@@ -1,10 +1,10 @@
 
 public class main {
     public static void main(String[] args) {
-        int balance = 100; //начальный баланс клиента
-        int add = 1300; //переменная для суммы пополнения
-        int newBalance; //переменная для итогового баланса
-        int cashback; //переменная для бонусов
+        int balance = 100;
+        int add = 1400;
+        int newBalance;
+        int cashback;
 
         if (add > 1000) {
             cashback = add / 100;
